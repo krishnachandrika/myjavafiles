@@ -39,12 +39,12 @@ public class OverLoading {
 	
 public static void main(String args[]) {
 	OverLoading obj = new OverLoading();
-	obj.printData(10);
-	obj.printData(33.33);
-	obj.printData(12.15f);
-	obj.printData("s");
-	obj.printData("Method");
-	obj.printData(2345);
+	obj.printData(15);
+	obj.printData(44.33);
+	obj.printData(9.15f);
+	obj.printData("K");
+	obj.printData("chandu");
+	obj.printData(12345);
 }
 
 }
