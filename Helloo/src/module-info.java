@@ -1,0 +1,3 @@
+module Helloo {
+	requires junit;
+}
