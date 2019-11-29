@@ -13,6 +13,7 @@ public class HeapSort {
         }
   
         // One by one extract an element from heap 
+        
         for (int i=n-1; i>=0; i--) 
         { 
             // Move current root to end 
@@ -24,6 +25,7 @@ public class HeapSort {
             heapify(arr, i, 0); 
         } 
 	}
+	
 	 void heapify(int arr[], int n, int i) 
 	    { 
 	        int largest = i; // Initialize largest as root 
